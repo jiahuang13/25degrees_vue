@@ -59,7 +59,7 @@
     <el-drawer
       title="購物車"
       :visible.sync="drawer"
-      :direction="rtl"
+      direction="rtl"
       @open="handleOpen"
     >
       <div class="body">
@@ -69,19 +69,20 @@
       <div class="bottom">
         <!-- 中间的合计 -->
         <div>
-          <span>共 10 件商品，合計：</span>
-          <span class="price">$3280</span>
+          <span>共 {{ total }} 件商品，合計：</span>
+          <span class="price">${{ totalPrice }}</span>
         </div>
         <!-- 右侧结算按钮 -->
         <button class="btn btn-success btn-settle">結帳</button>
       </div>
+
     </el-drawer>
   </div>
 </template>
 
 <script>
 import cartItem from '@/views/layout/components/cart/cartItem.vue'
-import { mapState } from 'vuex'
+import { mapState, mapGetters } from 'vuex'
 
 export default {
   components: { cartItem },
@@ -91,7 +92,8 @@ export default {
     }
   },
   computed: {
-    ...mapState('cart', ['list'])
+    ...mapState('cart', ['list']),
+    ...mapGetters('cart', ['total', 'totalPrice'])
   },
   created () {},
   methods: {
@@ -116,33 +118,31 @@ export default {
       margin-bottom: 0;
     }
     .body {
-      padding: 0 30px;
+      padding: 0 30px 50px 30px;
+      /* height: 70%; */
     }
-    .el-drawer__body{
-      overflow: hidden;
+    .el-drawer__body {
+      /* overflow: hidden; */
       width: 100%;
+      position: relative;
     }
     .bottom {
-      /* background-color: white; */
+      background-color: #88988b;
       height: 70px;
       /* border-top: 1px solid #f8f8f8; */
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      padding: 0 10px;
       position: fixed;
       bottom: 0;
       right: 0;
-      width: 100%;
       z-index: 999;
       font-size: 16px;
       .price {
         color: #091b0c;
-letter-spacing: 1px;
         font-weight: bold;
         margin-right: 10px;
-      font-size: 25px;
-
+        font-size: 25px;
       }
       .btn-settle {
         height: 50px;

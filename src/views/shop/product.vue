@@ -29,6 +29,7 @@
 
 <script>
 import { getDetailAPI, addToCartAPI } from '@/api/product'
+import { mapState } from 'vuex'
 export default {
   name: 'ProductPage',
   data () {
@@ -37,29 +38,44 @@ export default {
       count: '1'
     }
   },
+  computed: {
+    ...mapState('cart', ['list'])
+  },
   async created () {
     const res = await getDetailAPI(this.$route.params.id)
     // console.log(res)
     this.info = res
+    this.$store.dispatch('cart/getListAPI')
   },
   methods: {
     async addToCart () {
-      const data = {
-        id: +this.$route.params.id,
-        count: this.count,
-        price: +this.info.price,
-        name: this.info.name,
-        url: this.info.url
+      // 要確認此商品是否已有在購物車裡，若有則修改數量，沒有則新增！！！！！
+      const existItem = this.list.find(ele => ele.id === +this.$route.params.id)
+      if (existItem) {
+        // console.log('此商品已存在')
+        await this.$store.dispatch('cart/updateCountAPI', { id: +this.$route.params.id, count: existItem.count + this.count })
+        this.$message({
+          message: '已加入購物車',
+          type: 'success'
+        })
+      } else {
+        const data = {
+          id: +this.$route.params.id,
+          count: this.count,
+          price: +this.info.price,
+          name: this.info.name,
+          url: this.info.url
+        }
+        // 新增到cart list
+        const res = await addToCartAPI(data)
+        console.log(res)
+        // 顯示新增成功輕提示
+        console.log('成功')
+        this.$message({
+          message: '已加入購物車',
+          type: 'success'
+        })
       }
-      // 新增到cart list
-      const res = await addToCartAPI(data)
-      console.log(res)
-      // 顯示新增成功輕提示
-      console.log('成功')
-      this.$message({
-        message: '已加入購物車',
-        type: 'success'
-      })
     }
   }
 }

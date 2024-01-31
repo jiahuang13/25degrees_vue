@@ -28,5 +28,20 @@ export default {
       // 將更新同步到vuex
       context.commit('updateCount', obj)
     }
+    // async deleteItemAPI (context, id) {
+    //   await request.delete(`/cart/${id}`)
+    //   // console.log('刪除成功')
+    //   context.commit()
+    // }
+  },
+  getters: {
+    // 商品總數量
+    total (state) {
+      return state.list.reduce((sum, item) => sum + item.count, 0)
+    },
+    // 商品總價
+    totalPrice (state) {
+      return state.list.reduce((sum, item) => sum + item.count * item.price, 0)
+    }
   }
 }

@@ -11,6 +11,7 @@ import Article from '@/views/article'
 Vue.use(VueRouter)
 
 const router = new VueRouter({
+  mode: 'history',
   routes: [
     {
       path: '/login',
@@ -36,42 +37,6 @@ const router = new VueRouter({
         }
       ]
     }
-    // {
-    //   path: '/about',
-    //   component: Layout,
-    //   children: [{
-    //     path: '',
-    //     component: () => import('@/views/About/index'),
-    //     meta: { title: '關於25°C' }
-    //   }]
-    // },
-    // {
-    //   path: '/article',
-    //   component: Layout,
-    //   children: [{
-    //     path: '',
-    //     component: () => import('@/views/Article/index'),
-    //     meta: { title: '專欄' }
-    //   }]
-    // },
-    // {
-    //   path: '/shop',
-    //   component: Layout,
-    //   children: [{
-    //     path: '',
-    //     component: () => import('@/views/Shop/index'),
-    //     meta: { title: '線上商店' }
-    //   }]
-    // },
-    // {
-    //   path: '/massage',
-    //   component: Layout,
-    //   children: [{
-    //     path: '',
-    //     component: () => import('@/views/Massage/index'),
-    //     meta: { title: '精油按摩' }
-    //   }]
-    // }
   ]
 })
 

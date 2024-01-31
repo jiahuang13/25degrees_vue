@@ -51,6 +51,7 @@ export default {
       letter-spacing: 7px;
       font-weight: 100;
       font-size: 30px;
+      line-height: 40px;
     }
     h4 {
       font-weight: 100;

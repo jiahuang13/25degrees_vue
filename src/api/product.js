@@ -22,3 +22,11 @@ export const addToCartAPI = (data) => {
     data
   })
 }
+
+// 刪除購物車內商品
+export const deleteProductAPI = (id) => {
+  return request({
+    url: `/cart/${id}`,
+    method: 'DELETE'
+  })
+}

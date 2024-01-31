@@ -75,8 +75,8 @@ export default {
 }
 .footer-bottom {
   text-align: center;
-  color: #091b0c;
-  background-color: #fff;
+  color: #fff;
+  background-color: #091b0c;
   padding: 0.3px 0;
 }
 }

@@ -73,6 +73,7 @@ export default {
     span {
       font-size: 20px;
       color: #b7b7b7;
+      line-height: 35px;
     }
   }
   .content {
@@ -84,6 +85,7 @@ export default {
     font-size: 14px;
     padding: 0 20px;
     margin: 0;
+    line-height: 25px;
   }
 }
 }

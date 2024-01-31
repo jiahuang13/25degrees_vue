@@ -7,9 +7,6 @@
     <!-- 右侧商品区域 -->
     <div class="right">
       <!-- 标题 -->
-      <div class="close">
-        <el-button size="mini" icon="el-icon-close" circle>
-        </el-button></div>
       <div class="title">{{ item.name }}</div>
       <div class="info">
         <!-- 单价 -->
@@ -20,12 +17,16 @@
           <span class="count">{{ item.count }}</span>
           <button class="btn btn-light" @click="countChange(1)">+</button>
         </div>
+        <!-- close -->
+        <el-button size="mini" icon="el-icon-close" circle @click="deleteItem(item.id)">
+        </el-button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import { deleteProductAPI } from '@/api/product'
 export default {
   name: 'CartItem',
   methods: {
@@ -33,6 +34,11 @@ export default {
       const newCount = this.item.count + step
       console.log(this.item.id, newCount)
       this.$store.dispatch('cart/updateCountAPI', { id: this.item.id, count: newCount })
+    },
+    async deleteItem (id) {
+      // console.log(id)
+      await deleteProductAPI(id)
+      this.$store.dispatch('cart/getListAPI')
     }
   },
   props: {
@@ -64,12 +70,11 @@ export default {
     justify-content: space-between;
     padding: 0 10px;
     flex: 1;
-    postition: relative;
-    .close {
-      position: absolute;
-      top:20px;
-      right: 20px;
+    position: relative;
       .el-button {
+        position: sticky;
+        // top: 0;
+        // right: 20px;
         background-color: transparent;
         color: #091b0c;
         border-color:#091b0c;
@@ -105,7 +110,6 @@ export default {
       }
     }
   }
-}
 
 .custom-control-label::before,
 .custom-control-label::after {

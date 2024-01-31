@@ -46,6 +46,7 @@ export default {
 }
 .box {
   border: 0.5px solid rgb(136, 136, 136);
+  background-color: #091b0c;
   width: 90%;
   margin: 50px auto;
   .title {

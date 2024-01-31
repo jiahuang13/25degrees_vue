@@ -1,39 +1,46 @@
 {
   "cart": [
     {
-      "id": 1,
-      "count": 4,
-      "price": 1080,
-      "name": "活力複方精油",
-      "url": "https://static.wixstatic.com/media/ef7f06_89d006d5c1624a018eb4ca34848217bc~mv2.jpg/v1/fill/w_492,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_89d006d5c1624a018eb4ca34848217bc~mv2.jpg"
-    },
-    {
-      "id": 10,
-      "count": 6,
-      "price": 880,
-      "name": "蠟燭 | 松林清晨",
-      "url": "https://static.wixstatic.com/media/ef7f06_cd42ea231ca841e6b5e6fbe45f6f1890~mv2.jpg/v1/fill/w_735,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_cd42ea231ca841e6b5e6fbe45f6f1890~mv2.jpg"
+      "id": 4,
+      "count": 1,
+      "price": 980,
+      "name": "溫和植萃沐浴組",
+      "url": "https://static.wixstatic.com/media/ef7f06_2bae114f21b940b4a1185477b70a76e5~mv2.jpg/v1/fill/w_367,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_2bae114f21b940b4a1185477b70a76e5~mv2.jpg"
     },
     {
       "id": 7,
-      "count": 2,
+      "count": 4,
       "price": 1680,
       "name": "超保濕6件組",
       "url": "https://static.wixstatic.com/media/ef7f06_a3f33effcb644b2a8d19d574b2a340a5~mv2.jpg/v1/fill/w_368,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_a3f33effcb644b2a8d19d574b2a340a5~mv2.jpg"
     },
     {
-      "id": 5,
+      "id": 8,
       "count": 1,
-      "price": 1280,
-      "name": "柚木沐浴皂3件組",
-      "url": "https://static.wixstatic.com/media/ef7f06_834f8854829a4b6aa03ab64e0b3fd849~mv2.jpg/v1/fill/w_367,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_834f8854829a4b6aa03ab64e0b3fd849~mv2.jpg"
+      "price": 2180,
+      "name": "玫瑰淨白精華",
+      "url": "https://static.wixstatic.com/media/ef7f06_a754cdc1548b4b7ba24cdd9560936172~mv2.jpg/v1/fill/w_827,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_a754cdc1548b4b7ba24cdd9560936172~mv2.jpg"
     },
     {
-      "id": 3,
-      "count": 3,
-      "price": 1580,
-      "name": "大麻喚醒按摩精油",
-      "url": "https://static.wixstatic.com/media/ef7f06_68a3398c01244a39bea5d12de6abfb91~mv2.jpg/v1/fill/w_827,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_68a3398c01244a39bea5d12de6abfb91~mv2.jpg"
+      "id": 9,
+      "count": 1,
+      "price": 880,
+      "name": "蠟燭 | 天海相接3件組",
+      "url": "https://static.wixstatic.com/media/ef7f06_6108f0c337874eddae0c072a577c02f3~mv2.jpg/v1/fill/w_826,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_6108f0c337874eddae0c072a577c02f3~mv2.jpg"
+    },
+    {
+      "id": 10,
+      "count": 1,
+      "price": 880,
+      "name": "蠟燭 | 松林清晨",
+      "url": "https://static.wixstatic.com/media/ef7f06_cd42ea231ca841e6b5e6fbe45f6f1890~mv2.jpg/v1/fill/w_735,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_cd42ea231ca841e6b5e6fbe45f6f1890~mv2.jpg"
+    },
+    {
+      "id": 11,
+      "count": 1,
+      "price": 880,
+      "name": "蠟燭 | 原野芬芳",
+      "url": "https://static.wixstatic.com/media/ef7f06_dfa9defa522d4b108d5e542421e5eff7~mv2.jpg/v1/fill/w_827,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_dfa9defa522d4b108d5e542421e5eff7~mv2.jpg"
     }
   ],
   "article": [

@@ -44,7 +44,7 @@
       </el-col>
 
       <el-col :span="8" class="buttons">
-        <el-button type="primary" icon="el-icon-user">登入/註冊</el-button>
+        <el-button type="primary" icon="el-icon-user"><a href="/login">登入/註冊</a></el-button>
         <!-- <el-button type="primary">登出</el-button> -->
         <el-button
           type="primary"
@@ -54,6 +54,7 @@
         >
       </el-col>
     </el-row>
+    <el-divider></el-divider>
 
     <!-- 抽屜 -->
     <el-drawer
@@ -192,6 +193,10 @@ export default {
   .buttons {
     text-align: end;
     margin: auto 0;
+    a:-webkit-any-link {
+    color: #fff;
+    text-decoration: none;
+}
   }
 }
 </style>

@@ -32,6 +32,14 @@ export default {
       welcomeUrl:
         'https://images.unsplash.com/photo-1497211419994-14ae40a3c7a3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     }
+  },
+  created () {
+    this.$notify({
+      title: '歡迎回到25°C',
+      message: ('i', { style: 'color: teal' }, '限時三天香氛商品全系列85折起'),
+      position: 'bottom-right',
+      duration: 0
+    })
   }
 }
 </script>

@@ -44,8 +44,9 @@
       </el-col>
 
       <el-col :span="8" class="buttons">
-        <el-button type="primary" icon="el-icon-user"><a href="/login">登入/註冊</a></el-button>
-        <!-- <el-button type="primary">登出</el-button> -->
+        <el-button type="primary" icon="el-icon-user" v-if="isLogin === false"><a href="/login">登入/註冊</a></el-button>
+        <el-button type="primary" icon="el-icon-user" v-if="isLogin === true"><a href="/login">會員中心</a></el-button>
+        <el-button type="primary" v-if="isLogin === true" @click="logOut">登出</el-button>
         <el-button
           type="primary"
           icon="el-icon-shopping-cart-2"
@@ -83,24 +84,47 @@
 
 <script>
 import cartItem from '@/views/layout/components/cart/cartItem.vue'
+import { getToken, removeToken } from '@/utils/auth'
 import { mapState, mapGetters } from 'vuex'
 
 export default {
   components: { cartItem },
   data () {
     return {
-      drawer: false
+      drawer: false,
+      isLogin: false
     }
   },
   computed: {
     ...mapState('cart', ['list']),
     ...mapGetters('cart', ['total', 'totalPrice'])
   },
-  created () {},
+  created () {
+    const token = getToken()
+    if (token) {
+      this.isLogin = true
+    } else {
+      this.isLogin = false
+    }
+  },
   methods: {
     handleOpen () {
       // console.log('open')
       this.$store.dispatch('cart/getListAPI')
+    },
+    logOut () {
+      this.$confirm('確定登出嗎', {
+        confirmButtonText: '確定',
+        cancelButtonText: '取消',
+        type: 'warning'
+      }).then(() => {
+        removeToken()
+        location.reload()
+        this.$message({
+          type: 'success',
+          message: '登出成功'
+        })
+      })
     }
   }
 }

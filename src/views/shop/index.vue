@@ -8,8 +8,8 @@
 
     <el-row>
       <el-col :span="8" v-for="item in productList" :key="item.id">
-        <el-card>
-          <div class="image">
+        <el-card @click.native="$router.push(`/product/${item.id}`)">
+            <div class="image">
             <img :src="item.url" alt="" />
           </div>
           <span class="name">{{ item.name }}</span>
@@ -18,7 +18,7 @@
             class="cart-icon"
             type="plain"
             icon="el-icon-shopping-cart-2"
-            @click="addToCart(item.id)"
+            @click.stop="addToCart(item.id)"
           >加入購物車</el-button>
         </el-card>
       </el-col>
@@ -97,6 +97,7 @@ export default {
       /* width: 90%; */
       text-align: center;
       .el-card {
+      cursor: pointer;
         border-radius: 5%;
         margin: 20px auto;
         width: 90%;

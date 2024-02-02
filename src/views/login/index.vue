@@ -2,10 +2,13 @@
   <div class="login">
     <el-row :gutter="10">
       <el-col
-        :xs="{ span: 24, offset: 0 }"
-        :sm="{ span: 16, offset: 4 }"
-        :md="{ span: 12, offset: 6 }"
+      :xs="{ span: 24, offset: 0 }"
+      :sm="{ span: 16, offset: 4 }"
+      :md="{ span: 12, offset: 6 }"
       >
+      <div class="logo">
+        <a href="/"><img src="@/assets/img/25degrees_logo.png" alt=""></a>
+      </div>
         <el-tabs v-model="activeName" stretch type="border-card">
           <el-tab-pane label="登入" name="login">
             <!-- 登入 -->
@@ -103,6 +106,7 @@
 
 <script>
 import { registerAPI, getAllUserAPI } from '@/api/user'
+import { setToken } from '@/utils/auth'
 export default {
   name: 'LoginIndex',
   data () {
@@ -154,10 +158,7 @@ export default {
           message: '已完成註冊',
           type: 'success'
         })
-        this.$message({
-          message: '已完成註冊',
-          type: 'success'
-        })
+        this.userList = []
         this.activeName = 'login'
         this.loginForm.username = this.registerForm.username
         this.loginForm.password = this.registerForm.password
@@ -165,20 +166,28 @@ export default {
       }
     },
     async login () {
-      await this.$refs.form.validate(async (valid) => {
-        if (valid) {
-          await this.$store.dispatch('user/asyncLogin', this.loginForm)
+      // 比對會員資料是否存在
+      const res = await getAllUserAPI()
+      this.userList = res
+      const existUser = this.userList.find(ele => ele.username === this.loginForm.username)
+      if (!existUser) {
+        this.$message.error('此帳號不存在，請重新輸入帳號')
+      } else {
+        if (!existUser.password === this.loginForm.password) {
+          this.$message.error('密碼錯誤')
+        } else {
+          setToken('imtokennnnnnnnn')
           this.$message.success('登入成功')
           this.$router.push('/')
-
-          // 記住我與否
-          if (this.remember) {
-            localStorage.setItem('remember_key', JSON.stringify(this.form))
-          } else {
-            localStorage.removeItem('remember_key')
-          }
         }
-      })
+      }
+
+      // 記住我與否
+      if (this.loginForm.remember) {
+        localStorage.setItem('remember_key', JSON.stringify(this.loginForm))
+      } else {
+        localStorage.removeItem('remember_key')
+      }
     },
     resetForm (form) {
       this.$refs.form.resetFields()
@@ -188,11 +197,22 @@ export default {
 </script>
 
 <style>
-html {
-  background-color: #091b0c;
-  .el-row {
-    background-color: #091b0c;
-    margin: 20vh 0;
+
+  /* background-color: #091b0c; */
+  .login {
+    .el-row {
+    /* background-color: #091b0c; */
+    margin: 10vh 0;
+    .logo {
+    width: 10vw;
+    margin: 0 auto 30px auto;
+    img {
+    width: 100%;}}
+.el-tabs--border-card, .el-tabs__nav-scroll {
+border-radius: 10px;}
+/* .el-tabs--border-card, .el-tabs__nav.is-stretch {
+background-color: transparent;} */
   }
-}
+  }
+
 </style>

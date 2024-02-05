@@ -1,32 +1,18 @@
 {
   "cart": [
     {
-      "id": "9",
-      "price": 880,
-      "url": "https://static.wixstatic.com/media/ef7f06_6108f0c337874eddae0c072a577c02f3~mv2.jpg/v1/fill/w_826,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_6108f0c337874eddae0c072a577c02f3~mv2.jpg",
-      "name": "蠟燭 | 天海相接3件組",
-      "count": 1
+      "id": "3",
+      "price": 1580,
+      "url": "https://static.wixstatic.com/media/ef7f06_68a3398c01244a39bea5d12de6abfb91~mv2.jpg/v1/fill/w_827,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_68a3398c01244a39bea5d12de6abfb91~mv2.jpg",
+      "name": "大麻喚醒按摩精油",
+      "count": 4
     },
     {
-      "id": "6",
-      "price": 1280,
-      "url": "https://static.wixstatic.com/media/ef7f06_e26852fb83ba4ea0b42c6e820330499d~mv2.jpg/v1/fill/w_367,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_e26852fb83ba4ea0b42c6e820330499d~mv2.jpg",
-      "name": "保濕修護乳霜",
-      "count": 1
-    },
-    {
-      "id": "10",
-      "price": 880,
-      "url": "https://static.wixstatic.com/media/ef7f06_cd42ea231ca841e6b5e6fbe45f6f1890~mv2.jpg/v1/fill/w_735,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_cd42ea231ca841e6b5e6fbe45f6f1890~mv2.jpg",
-      "name": "蠟燭 | 松林清晨",
-      "count": 1
-    },
-    {
-      "id": "2",
-      "price": 960,
-      "url": "https://static.wixstatic.com/media/ef7f06_78dd86a31a234fec9fa3847f89e761d9~mv2.jpg/v1/fill/w_825,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_78dd86a31a234fec9fa3847f89e761d9~mv2.jpg",
-      "name": "苦橙葉單方精油",
-      "count": 1
+      "id": "1",
+      "count": 4,
+      "price": 1080,
+      "name": "活力複方精油",
+      "url": "https://static.wixstatic.com/media/ef7f06_89d006d5c1624a018eb4ca34848217bc~mv2.jpg/v1/fill/w_492,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_89d006d5c1624a018eb4ca34848217bc~mv2.jpg"
     }
   ],
   "product": [
@@ -34,78 +20,100 @@
       "id": "1",
       "name": "活力複方精油",
       "price": 1080,
-      "content": "<p>我們自豪地呈獻「活力複方精油」，這是一瓶精心調配的精油複方，專為提振您的身心而設計。這個複方精油結合了多種天然植物精華，為您帶來持久的活力和精神充沛。</p><p>「活力複方精油」融合了多種天然植物的力量，包括柑橘、薄荷和迷迭香等。每一種成分都具有獨特的提神和活化效果，讓您在短時間內感受到身心的活力。</p>",
-      "url": "https://static.wixstatic.com/media/ef7f06_89d006d5c1624a018eb4ca34848217bc~mv2.jpg/v1/fill/w_492,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_89d006d5c1624a018eb4ca34848217bc~mv2.jpg"
+      "content": "<p><strong>提振身心，活力充沛的自然能量</strong></p><p>我們自豪地呈獻「活力複方精油」，這是一瓶精心調配的精油複方，專為提振您的身心而設計。這個複方精油結合了多種天然植物精華，為您帶來持久的活力和精神充沛。</p><p><br></p><p><strong>多種天然植物力量</strong></p><p>「活力複方精油」融合了多種天然植物的力量，包括柑橘、薄荷和迷迭香等。每一種成分都具有獨特的提神和活化效果，讓您在短時間內感受到身心的活力。</p>",
+      "url": "https://static.wixstatic.com/media/ef7f06_89d006d5c1624a018eb4ca34848217bc~mv2.jpg/v1/fill/w_492,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_89d006d5c1624a018eb4ca34848217bc~mv2.jpg",
+      "category": "essential-oil",
+      "count": "19"
     },
     {
       "id": "2",
       "name": "苦橙葉單方精油",
       "price": 960,
-      "content": "<p>這瓶精油的香氣能夠提振您的精神，使您感到焕然一新。在繁忙的生活中，只需幾滴精油的香氣，您便能夠感受到內在的力量和活力，為每一天注入新的動力。</p>",
-      "url": "https://static.wixstatic.com/media/ef7f06_78dd86a31a234fec9fa3847f89e761d9~mv2.jpg/v1/fill/w_825,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_78dd86a31a234fec9fa3847f89e761d9~mv2.jpg"
+      "content": "<p><strong>自然的活力</strong></p><p>「苦橙葉單方精油」是大自然賦予我們的禮物，它帶有苦橙葉的原生能量。這款精油的香氣充滿了活力和清新，是一種自然的提神劑，能夠讓您在疲勞時恢復精力。</p><p><br></p><p><strong>提振精神</strong></p><p>這瓶精油的香氣能夠提振您的精神，使您感到焕然一新。在繁忙的生活中，只需幾滴精油的香氣，您便能夠感受到內在的力量和活力，為每一天注入新的動力。</p><p><br></p><p><strong>平衡情緒</strong></p><p>「苦橙葉單方精油」不僅能夠提升精神，還能夠平衡情緒。它的香氣具有舒緩的效果，能夠幫助您紓解壓力和焦慮，讓您心情平靜而愉悅。</p><p><br></p><p><strong>多重用途</strong></p><p>這款精油具有多重用途，可以在精油燈中使用、按摩油中混合，甚至可以加入您的沐浴中。不論是在家中創造愉悅的氛圍，還是在放鬆時享受香氣，它都能成為您的最佳選擇。</p><p><br></p><p><strong>自然的活力，自信的魅力</strong></p><p>「苦橙葉單方精油」是一個代表自然能量的精華寶藏。透過它的香氣和能量，您將感受到活力的喚醒，成為自己最自信的魅力展現。</p><p>選擇「苦橙葉單方精油」，選擇自然的活力，讓您的日常充滿清新和動力。它將成為您身心平衡的伙伴，帶來自然的能量和愉悅。</p>",
+      "url": "https://static.wixstatic.com/media/ef7f06_78dd86a31a234fec9fa3847f89e761d9~mv2.jpg/v1/fill/w_825,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_78dd86a31a234fec9fa3847f89e761d9~mv2.jpg",
+      "category": "essential-oil",
+      "count": 20
     },
     {
       "id": "3",
       "name": "大麻喚醒按摩精油",
       "price": 1580,
-      "content": "<p>這瓶精油的香氣能夠提振您的精神，使您感到焕然一新。在繁忙的生活中，只需幾滴精油的香氣，您便能夠感受到內在的力量和活力，為每一天注入新的動力。</p>",
-      "url": "https://static.wixstatic.com/media/ef7f06_68a3398c01244a39bea5d12de6abfb91~mv2.jpg/v1/fill/w_827,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_68a3398c01244a39bea5d12de6abfb91~mv2.jpg"
+      "content": "<p><strong>深層放鬆，療癒身心的奢華體驗</strong></p><p>我們自豪地呈獻「大麻喚醒按摩精油」，這是一瓶專為身心放鬆而誕生的奢華療癒之寶。透過大麻的天然精華，這款精油將帶您進入深層的療癒體驗，讓身心在它的溫柔呵護下得到完美放鬆。</p><p><br></p><p><strong>天然療癒力量</strong></p><p>「大麻喚醒按摩精油」蘊含了大麻植物的純淨精華，這是大自然賦予我們的珍貴禮物。大麻精油富含天然的化合物，被廣泛認識為一種能夠舒緩壓力、放鬆身心的自然療癒力量。</p><p><br></p><p><strong>深層放鬆</strong></p><p>這款精油是一種極致的療癒體驗，它能夠深入肌膚和心靈。在按摩時，精油的香氣將帶您進入一個深層的放鬆狀態，讓壓力和疲憊煙消雲散。</p><p><br></p><p><strong>身心平衡</strong></p><p>「大麻喚醒按摩精油」有助於平衡身心，緩解情緒壓力，讓您回復內在的平靜和和諧。它的療癒能量能夠幫助您找回內在的平衡，使身心恢復活力。</p>",
+      "url": "https://static.wixstatic.com/media/ef7f06_68a3398c01244a39bea5d12de6abfb91~mv2.jpg/v1/fill/w_827,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_68a3398c01244a39bea5d12de6abfb91~mv2.jpg",
+      "category": "essential-oil",
+      "count": 20
     },
     {
       "id": "4",
       "name": "溫和植萃沐浴組",
       "price": 980,
-      "content": "<p>集合了多款天然產品的組合，為您帶來純淨的沐浴享受，從頭到腳呵護您的肌膚。這個特別的組合包含了浴鹽、沐浴皂、毛巾和沐浴刷，為您打造一場身心的清新之旅。</p>",
-      "url": "https://static.wixstatic.com/media/ef7f06_2bae114f21b940b4a1185477b70a76e5~mv2.jpg/v1/fill/w_367,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_2bae114f21b940b4a1185477b70a76e5~mv2.jpg"
+      "content": "<p><strong>天然呵護，完整身心的純淨體驗</strong></p><p>集合了多款天然產品的組合，為您帶來純淨的沐浴享受，從頭到腳呵護您的肌膚。這個特別的組合包含了浴鹽、沐浴皂、毛巾和沐浴刷，為您打造一場身心的清新之旅。</p><p><br></p><p><strong>天然的愛護</strong></p><p>「溫和植萃沐浴組」的每個產品都充滿了天然的愛護。從精心挑選的植物萃取到純凈的浴鹽，每一款產品都是對您肌膚的溫柔關愛，帶您走進大自然的懷抱。</p><p><br></p><p><strong>溫和的清潔</strong></p><p>組合中的沐浴皂溫和潔淨，能夠有效去除污垢和雜質，同時保護肌膚的水油平衡。搭配柔軟的毛巾，您的沐浴體驗將更加舒適。</p><p><br></p><p><strong>放鬆的沐浴時光</strong></p><p>將一些浴鹽加入沐浴水中，讓您享受放鬆的泡澡時光。浴鹽能夠舒緩肌膚，為您帶來舒適的身心體驗，讓您的沐浴成為一場寧靜的假期。</p><p><br></p><p><strong>完整的護理</strong></p><p>沐浴刷是組合的最後一環，能夠幫助您輕輕去除角質，促進血液循環，讓肌膚更加細緻光滑。結合所有產品的使用，您將獲得一個完整的護理體驗。</p>",
+      "url": "https://static.wixstatic.com/media/ef7f06_2bae114f21b940b4a1185477b70a76e5~mv2.jpg/v1/fill/w_367,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_2bae114f21b940b4a1185477b70a76e5~mv2.jpg",
+      "category": "body-care",
+      "count": 20
     },
     {
       "id": "5",
       "name": "柚木沐浴皂3件組",
       "price": 1280,
-      "content": "<p>「柚木沐浴皂3件組」蘊含柚木的精華，散發著清新、明亮的香氣。每一次的使用都能讓您感受到水果般的清新氛圍，讓沐浴成為一場身心愉悅的旅程。</p>",
-      "url": "https://static.wixstatic.com/media/ef7f06_834f8854829a4b6aa03ab64e0b3fd849~mv2.jpg/v1/fill/w_367,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_834f8854829a4b6aa03ab64e0b3fd849~mv2.jpg"
+      "content": "<p><strong>柚木的清新香氣</strong></p><p>「柚木沐浴皂3件組」蘊含柚木的精華，散發著清新、明亮的香氣。每一次的使用都能讓您感受到水果般的清新氛圍，讓沐浴成為一場身心愉悅的旅程。</p><p><br></p><p><strong>溫和的清潔</strong></p><p>這三款沐浴皂均採用溫和的配方，能夠溫柔地潔淨肌膚，同時不破壞肌膚的水油平衡。您的肌膚將感受到徹底的清潔，同時保持水分與柔軟。</p><p><br></p><p><strong>保濕滋潤</strong></p><p>「柚木沐浴皂3件組」蘊含保濕成分，能夠在清潔的同時為肌膚注入水分和營養。您的肌膚將在沐浴後感受到柔軟滋潤，充滿光彩。</p>",
+      "url": "https://static.wixstatic.com/media/ef7f06_834f8854829a4b6aa03ab64e0b3fd849~mv2.jpg/v1/fill/w_367,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_834f8854829a4b6aa03ab64e0b3fd849~mv2.jpg",
+      "category": "body-care",
+      "count": 20
     },
     {
       "id": "6",
       "name": "保濕修護乳霜",
       "price": 1280,
-      "content": "<p>為您帶來深度滋潤的保濕體驗，讓您的肌膚綻放柔軟與光滑。無論您的肌膚是因季節變化、環境壓力還是日常生活而感到乾燥，這款乳霜都將是您肌膚的最佳呵護。</p>",
-      "url": "https://static.wixstatic.com/media/ef7f06_e26852fb83ba4ea0b42c6e820330499d~mv2.jpg/v1/fill/w_367,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_e26852fb83ba4ea0b42c6e820330499d~mv2.jpg"
+      "content": "<p><strong>深層滋潤，呵護肌膚的極致柔軟</strong></p><p>為您帶來深度滋潤的保濕體驗，讓您的肌膚綻放柔軟與光滑。無論您的肌膚是因季節變化、環境壓力還是日常生活而感到乾燥，這款乳霜都將是您肌膚的最佳呵護。</p><p><br></p><p><strong>&nbsp;深層滋潤</strong></p><p>「保濕修護乳霜」蘊含豐富的保濕成分，能夠深層滋潤肌膚，令乾燥的肌膚瞬間回復水潤。乳霜的質地濃郁卻不油膩，輕輕一抹即可感受到肌膚的柔軟與舒適。</p><p><br></p><p><strong>長效保濕</strong></p><p>這款乳霜不僅在塗抹時提供肌膚所需的水分，更能夠長效保持肌膚的水油平衡。乳霜在肌膚表面形成一層保護膜，鎖住水分，讓您的肌膚持久保持濕潤狀態。</p><p><br></p><p><strong>修護與舒緩</strong></p><p>「保濕修護乳霜」不僅僅是保濕，更能夠修護受損的肌膚，舒緩不適。乳霜中的成分有助於修復肌膚屏障，增強肌膚的抵抗力，使肌膚更加健康。</p><p><br></p><p><strong>柔軟光澤</strong></p><p>透過「保濕修護乳霜」，您的肌膚將恢復柔軟光澤。乾燥紋路將被淡化，取而代之的是煥發光采的肌膚。您的肌膚將更加有彈性，充滿年輕活力。</p><p><br></p><p><strong>自信從肌膚開始</strong></p><p>我們深信，自信源自健康的肌膚。「保濕修護乳霜」將為您帶來自信的開始。透過持續的使用，您將看到肌膚的改變，自信光澤散發而出，成為自己最美的風景。</p><p>選擇「保濕修護乳霜」，選擇深層滋潤，讓您的肌膚在柔軟的護佑下綻放光彩，散發自信的美麗。</p>",
+      "url": "https://static.wixstatic.com/media/ef7f06_e26852fb83ba4ea0b42c6e820330499d~mv2.jpg/v1/fill/w_367,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_e26852fb83ba4ea0b42c6e820330499d~mv2.jpg",
+      "category": "face-care",
+      "count": 20
     },
     {
       "id": "7",
       "name": "超保濕6件組",
       "price": 1680,
-      "content": "<p>我們深信，肌膚健康是您自信的基石。「超保濕六件組」將極致的保濕滋潤融入每一款產品，讓您的肌膚在每個步驟中都感受到愛護。無論是在清潔、保濕，還是修復，這套產品組合都將肌膚的需求照顧得無微不至。</p>",
-      "url": "https://static.wixstatic.com/media/ef7f06_a3f33effcb644b2a8d19d574b2a340a5~mv2.jpg/v1/fill/w_368,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_a3f33effcb644b2a8d19d574b2a340a5~mv2.jpg"
+      "content": "<p><strong>超保濕六件組 — 深度滋潤，呵護肌膚的極致奢華</strong></p><p>我們自豪地呈獻「超保濕六件組」，這是一套專為追求極致肌膚護理的您打造的產品組合。在現代生活的環境壓力下，您的肌膚需要更多的關愛和呵護，這套六件組給予您深度的保濕滋潤，讓您的肌膚綻放健康的光彩。</p><p><br></p><p><strong>&nbsp;六件組內容</strong></p><ol><li>潔面霜： 這款溫和的潔面霜能夠徹底潔淨肌膚，同時不破壞肌膚的水油平衡，讓肌膚感受到細緻的清潔。</li><li>保濕化妝水： 富含保濕成分的化妝水能夠迅速滲透至肌膚底層，為肌膚注入水分，讓肌膚維持水潤飽滿的狀態。</li><li>精華液： 這款精華液蘊含高效保濕成分，能夠深入滲透至肌膚底層，修復乾燥肌膚，使肌膚更加光滑柔軟。</li><li>保濕面膜： 超保濕的面膜能夠瞬間提供肌膚所需的水分和營養，令肌膚回復活力，散發健康光彩。</li><li>日間保濕乳液： 輕盈的日間保濕乳液能夠為肌膚形成保護屏障，抵禦外界環境的傷害，同時持續為肌膚注入水分。</li><li>夜間修護霜： 富含滋養成分的夜間修護霜能夠在夜間深度滋養肌膚，修復因日間壓力而受損的肌膚。</li></ol><p><br></p><p><strong>&nbsp;奢華滋潤，愛護每一寸肌膚</strong></p><p>我們深信，肌膚健康是您自信的基石。「超保濕六件組」將極致的保濕滋潤融入每一款產品，讓您的肌膚在每個步驟中都感受到愛護。無論是在清潔、保濕，還是修復，這套產品組合都將肌膚的需求照顧得無微不至。</p><p><br></p><p><strong>呵護肌膚，綻放自信</strong></p><p>「超保濕六件組」不僅是一套護膚產品，更是您呵護肌膚的最佳選擇。透過持續的使用，您將能夠感受到肌膚逐漸回復水潤光彩，散發自信的魅力。讓每一寸肌膚都綻放健康的光芒，成為自己最美的風景。</p><p>選擇「超保濕六件組」，選擇極致的呵護，讓您的肌膚在保濕的護佑下綻放健康光彩，散發自信的魅力。</p>",
+      "url": "https://static.wixstatic.com/media/ef7f06_a3f33effcb644b2a8d19d574b2a340a5~mv2.jpg/v1/fill/w_368,h_551,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ef7f06_a3f33effcb644b2a8d19d574b2a340a5~mv2.jpg",
+      "category": "face-care",
+      "count": 20
     },
     {
       "id": "8",
       "name": "玫瑰淨白精華",
       "price": 2180,
-      "content": "<p>「玫瑰淨白精華」以珍貴的玫瑰為核心成分，融合高效美白精華，經過科學配方，能夠有效對抗色斑，淡化暗沉，為您呈現均勻淨白的膚色。精華的質地輕盈，容易被肌膚吸收，為您的肌膚注入活力和營養。</p>",
-      "url": "https://static.wixstatic.com/media/ef7f06_a754cdc1548b4b7ba24cdd9560936172~mv2.jpg/v1/fill/w_827,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_a754cdc1548b4b7ba24cdd9560936172~mv2.jpg"
+      "content": "<p><strong>傾心呵護，散發光采的尊爵體驗</strong></p><p>我們自豪地呈獻「玫瑰淨白精華」，這款尊爵精華專為您打造，旨在為您帶來淨白、透亮的膚色，同時深層滋養肌膚，讓您散發自信的美麗光采。</p><p><br></p><p><strong>尊貴護膚</strong></p><p>「玫瑰淨白精華」以珍貴的玫瑰為核心成分，融合高效美白精華，經過科學配方，能夠有效對抗色斑，淡化暗沉，為您呈現均勻淨白的膚色。精華的質地輕盈，容易被肌膚吸收，為您的肌膚注入活力和營養。</p><p><br></p><p><strong>透亮光采</strong></p><p>「玫瑰淨白精華」能夠幫助肌膚重拾透亮光采。不僅可以淡化色斑和暗沉，還能促進肌膚的新陳代謝，讓肌膚回復細緻均勻的狀態。您的肌膚將變得更加透明明亮，充滿光澤。</p><p><br></p><p><strong>自信從肌膚開始</strong></p><p>我們深信，自信源自健康的肌膚。「玫瑰淨白精華」為您提供一個自信的開始。透過持續使用，您將看到肌膚的轉變，自信光采散發而出，成為自己最美的風景。</p><p>選擇「玫瑰淨白精華」，選擇光采、選擇自信。讓您的肌膚在尊爵的呵護下綻放淨色和光采，散發自信的美麗。</p>",
+      "url": "https://static.wixstatic.com/media/ef7f06_a754cdc1548b4b7ba24cdd9560936172~mv2.jpg/v1/fill/w_827,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_a754cdc1548b4b7ba24cdd9560936172~mv2.jpg",
+      "category": "face-care",
+      "count": 20
     },
     {
       "id": "9",
       "name": "蠟燭 | 天海相接3件組",
       "price": 880,
-      "content": "<p>「天海相接」蠟燭的香氣仿佛是一場天地之間的對話，融合了潔淨的海風、天空的明亮和海洋的澎湃。這款香氛猶如一場穿越天際和海浪的奇幻之旅，帶您靠近大海，俯瞰遼闊的天際。</p>",
-      "url": "https://static.wixstatic.com/media/ef7f06_6108f0c337874eddae0c072a577c02f3~mv2.jpg/v1/fill/w_826,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_6108f0c337874eddae0c072a577c02f3~mv2.jpg"
+      "content": "<p><strong>天地之間的奇幻邂逅 Meeting of Sea and Sky</strong></p><p>當天空與海洋相接，創造出一個奇幻的邂逅。透過「天海相接」香氛蠟燭，您可以將這份壯闊的美景帶入您的生活空間，讓您感受到天地相接的神秘與和諧。</p><p><br></p><p><strong>香氛特色</strong></p><p>「天海相接」蠟燭的香氣仿佛是一場天地之間的對話，融合了潔淨的海風、天空的明亮和海洋的澎湃。這款香氛猶如一場穿越天際和海浪的奇幻之旅，帶您靠近大海，俯瞰遼闊的天際。</p><p><br></p><p><strong>壯闊的美景</strong></p><p>這款蠟燭是將壯闊美景引入您的室內。「天海相接」蠟燭的香氣讓您彷彿置身於天地相接的界線上，感受著天空與海洋的融合，讓您的空間充滿壯麗和神秘。</p>",
+      "url": "https://static.wixstatic.com/media/ef7f06_6108f0c337874eddae0c072a577c02f3~mv2.jpg/v1/fill/w_826,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_6108f0c337874eddae0c072a577c02f3~mv2.jpg",
+      "category": "incense",
+      "count": 20
     },
     {
       "id": "10",
       "name": "蠟燭 | 松林清晨",
       "price": 880,
-      "content": "<p>在一個寧靜的早晨，當金色的陽光穿越茂密的樹林，一片晨霧彷彿在森林中輕輕編織。「松林清晨」香氛蠟燭將這份寧靜和生機凝聚成深具魅力的香氛體驗。無論是為了迎接新的一天，還是尋求一份內心的寧靜，這款蠟燭將帶領您漫遊在松林的早晨光景中。</p>",
-      "url": "https://static.wixstatic.com/media/ef7f06_cd42ea231ca841e6b5e6fbe45f6f1890~mv2.jpg/v1/fill/w_735,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_cd42ea231ca841e6b5e6fbe45f6f1890~mv2.jpg"
+      "content": "<p><strong>森林中的朝霞Morning Pine Grove</strong></p><p>在一個寧靜的早晨，當金色的陽光穿越茂密的樹林，一片晨霧彷彿在森林中輕輕編織。「松林清晨」香氛蠟燭將這份寧靜和生機凝聚成深具魅力的香氛體驗。無論是為了迎接新的一天，還是尋求一份內心的寧靜，這款蠟燭將帶領您漫遊在松林的早晨光景中。</p><p><br></p><p><strong>香氛特色</strong></p><p>「松林清晨」蠟燭蘊含著深邃的森林氣息，以新鮮的松針香氣為主調，令人彷彿置身於茂密的松林之中。這款香氛的獨特之處在於它融合了清新的松針香，並加入了淡淡的木質和草本調子，猶如清晨樹林的微風輕拂。</p><p><br></p><p><strong>體驗時刻</strong></p><p>在這個繁忙的世界裡，總有時候我們需要遠離塵囂，重新連結內心。「松林清晨」香氛蠟燭是您進行早晨冥想或寧靜時光的完美伴侶。在一個寧靜的角落點燃這支蠟燭，閉上雙眼，將自己帶入幽靜的森林，感受著松針的氣息和清新的空氣。</p>",
+      "url": "https://static.wixstatic.com/media/ef7f06_cd42ea231ca841e6b5e6fbe45f6f1890~mv2.jpg/v1/fill/w_735,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_cd42ea231ca841e6b5e6fbe45f6f1890~mv2.jpg",
+      "category": "incense",
+      "count": 20
     },
     {
       "id": "11",
       "name": "蠟燭 | 原野芬芳",
       "price": 880,
-      "content": "<p>「原野芬芳」蠟燭的香氣如同一場花海的嘉年華，融合了多種野花的芬芳，從清新的迎風蒲公英，到溫暖的野玫瑰，每一種花朵的香氣都在這款蠟燭中綻放。這是大地的花園之香，將您帶入一個充滿花香的奇幻世界。</p>",
-      "url": "https://static.wixstatic.com/media/ef7f06_dfa9defa522d4b108d5e542421e5eff7~mv2.jpg/v1/fill/w_827,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_dfa9defa522d4b108d5e542421e5eff7~mv2.jpg"
+      "content": "<p><strong>大地的花園之香 Wild Meadow Fragrance</strong></p><p>在大自然的原野中，孕育著各種野花的芬芳，彷彿是大地的花園。透過「原野芬芳」香氛蠟燭，您能夠將這份天然的美麗和清新引入室內，感受大地的花朵之香。</p><p><br></p><p><strong>香氛特色</strong></p><p>「原野芬芳」蠟燭的香氣如同一場花海的嘉年華，融合了多種野花的芬芳，從清新的迎風蒲公英，到溫暖的野玫瑰，每一種花朵的香氣都在這款蠟燭中綻放。這是大地的花園之香，將您帶入一個充滿花香的奇幻世界。</p><p><br></p><p><strong>自然的寧靜</strong></p><p>大自然有著獨特的寧靜。「原野芬芳」香氛蠟燭將這份寧靜引入您的空間，讓您可以在家中找到片刻的平靜。不論是閱讀、冥想，或者是獨處一人，這款香氣蠟燭都能夠為您帶來寧靜與平衡。</p>",
+      "url": "https://static.wixstatic.com/media/ef7f06_dfa9defa522d4b108d5e542421e5eff7~mv2.jpg/v1/fill/w_827,h_551,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_dfa9defa522d4b108d5e542421e5eff7~mv2.jpg",
+      "category": "incense",
+      "count": 20
     }
   ],
   "article": [
@@ -113,43 +121,37 @@
       "id": "1",
       "title": "精油的基本介紹與應用方法",
       "url": "https://static.wixstatic.com/media/ef7f06_a7a5c99a15474e83a30e3c8f9ce0ee7c~mv2.jpg/v1/fill/w_740,h_925,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_a7a5c99a15474e83a30e3c8f9ce0ee7c~mv2.jpg",
-      "content": "<p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p>"
+      "content": "<p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">什麼是精油？</strong></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 精油是從植物的花、葉、樹皮、果實等部分中提取的高度濃縮液體，保留了植物的香味和活性成分。它們通常通過蒸餾或榨取等方法獲得，每種精油都擁有獨特的香氣和特性。</span></p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">精油的應用方法：</strong></p><ol><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">擴香：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 使用香薰燈、香薰機或香薰珠，將幾滴精油加入水中擴香，為室內營造愉悅的氛圍。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">按摩：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 將精油稀釋後塗抹在皮膚上，進行按摩，有助於放鬆肌肉、舒緩疼痛，同時享受香氣的療癒效果。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">滾珠瓶：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 將精油稀釋後置於滾珠瓶中，方便隨時在脈搏點處輕輕塗抹，提升情緒或紓解不適。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">沐浴：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在沐浴水中添加幾滴精油，讓香氣隨著蒸氣散發，享受放鬆浸泡的時光。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">香水：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 將少量精油稀釋後塗抹在皮膚上，成為天然的香水，散發個人獨特的香味。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">蒸氣吸入：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在熱水中加入幾滴精油，覆蓋頭部用毛巾捂住，吸入蒸氣，有助於舒緩呼吸道不適。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">香薰珠或香氛墊：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在香氛珠或香氛墊上滴幾滴精油，放置於車內或辦公室，讓環境更加愉悅。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">DIY產品：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 將精油添加到護膚品、肥皂、蠟燭等DIY產品中，賦予其獨特的香氣和療癒效果。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">治療性應用：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 根據不同精油的特性，可用於輔助治療，如薰衣草精油有助於放鬆和改善睡眠。</span></li></ol><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">注意事項：</strong></p><ul><li><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">使用前應詳細閱讀每種精油的使用說明，遵循建議的用量和稀釋比例。</span></li><li><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">對於孕婦、嬰幼兒、敏感肌膚者，應謹慎使用精油，最好事先諮詢專業意見。</span></li><li><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">部分精油可能引起皮膚敏感或過敏，建議進行皮膚測試。</span></li><li><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">避免將精油接觸眼睛、黏膜或開放性傷口。</span></li></ul><p><br></p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p><p><br></p>"
     },
     {
       "id": "2",
       "title": "夏季按摩指南：融化炎炎夏日的疲憊",
-      "url": "https://static.wixstatic.com/media/ef7f06_eff1bf8d905d435a824f016e23a114b0~mv2.jpg/v1/fill/w_740,h_1110,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_eff1bf8d905d435a824f016e23a114b0~mv2.jpg",
-      "content": "<p>炎炎夏日，陽光灼熱，總是讓我們不禁渴望著能夠融化掉這份燥熱，找尋一絲清涼和舒適。而在這個時候，夏季身體按摩成為了一種令人期待的療癒方式，不僅能消除疲憊，還能提供肌膚的水分和養分，讓我們在炎夏中重拾活力。讓我們一同進入夏日的按摩世界，感受那份獨特的寧靜和舒適。</p><p>在高溫的夏季，我們的身體容易因流汗而失去水分，肌膚也容易變得乾燥。夏季身體按摩可以緩解這些問題，不僅可以滋潤肌膚，還可以促進血液循環，幫助我們排除體內的毒素，提升免疫力。此外，夏季身體按摩還可以放鬆緊繃的肌肉，緩解壓力，讓我們感受到身心的平衡。</p><p>在進行夏季身體按摩之前，選擇合適的按摩油是十分重要的。夏季我們可以選擇清涼、不油膩的按摩油，如薄荷、椰子、蘆薈等。薄荷具有清涼感，能夠舒緩皮膚的灼熱感；椰子油則具有保濕的效果，能夠滋潤乾燥的肌膚；蘆薈有鎮靜和修復的特性，可以幫助肌膚舒緩受損。選擇適合的按摩油，不僅可以提供舒適的按摩體驗，還能夠為肌膚帶來恢復和養分。</p><p>進行夏季身體按摩時，創造一個舒適的環境可以讓按摩效果更佳。可以選擇在清爽的房間進行按摩，打開窗戶讓空氣流通。選擇舒緩的音樂，讓自己能夠更好地放鬆。點燃一些薰衣草或橙花的香薰蠟燭，讓整個空間充滿愉悅的香氣，同時也能夠提升按摩的效果。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p>"
+      "url": "https://images.unsplash.com/photo-1591343395082-e120087004b4?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "content": "<p>炎炎夏日，陽光灼熱，總是讓我們不禁渴望著能夠融化掉這份燥熱，找尋一絲清涼和舒適。而在這個時候，夏季身體按摩成為了一種令人期待的療癒方式，不僅能消除疲憊，還能提供肌膚的水分和養分，讓我們在炎夏中重拾活力。讓我們一同進入夏日的按摩世界，感受那份獨特的寧靜和舒適。</p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">夏季身體按摩的益處</strong></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">在高溫的夏季，我們的身體容易因流汗而失去水分，肌膚也容易變得乾燥。夏季身體按摩可以緩解這些問題，不僅可以滋潤肌膚，還可以促進血液循環，幫助我們排除體內的毒素，提升免疫力。此外，夏季身體按摩還可以放鬆緊繃的肌肉，緩解壓力，讓我們感受到身心的平衡。</span></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">選擇合適的按摩油</strong></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">在進行夏季身體按摩之前，選擇合適的按摩油是十分重要的。夏季我們可以選擇清涼、不油膩的按摩油，如薄荷、椰子、蘆薈等。薄荷具有清涼感，能夠舒緩皮膚的灼熱感；椰子油則具有保濕的效果，能夠滋潤乾燥的肌膚；蘆薈有鎮靜和修復的特性，可以幫助肌膚舒緩受損。選擇適合的按摩油，不僅可以提供舒適的按摩體驗，還能夠為肌膚帶來恢復和養分。</span></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">按摩的技巧與方法</strong></p><ol><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">輕柔開始：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在進行按摩時，首先以輕柔的方式開始，讓肌膚適應按摩的觸感。可以使用手掌或指尖，輕輕地在肌膚表面滑動，溫暖肌膚。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">使用指壓：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在按摩過程中，可以用指壓的方式針對特定的部位進行按摩，如肩頸、背部等。用適度的力量按壓肌肉，幫助放鬆緊繃的部位。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">圓周運動：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 使用手掌在肌膚上進行圓周運動，這可以促進血液循環，幫助排除體內的毒素。從肩部開始，逐漸向下按摩，讓肌膚充滿活力。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">穴位按摩：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在按摩的過程中，可以注意一些穴位，如太陽穴、手臂內側等。輕輕地用指尖按壓這些穴位，有助於緩解壓力和疲勞。</span></li></ol><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">創造舒適的按摩環境</strong></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">進行夏季身體按摩時，創造一個舒適的環境可以讓按摩效果更佳。可以選擇在清爽的房間進行按摩，打開窗戶讓空氣流通。選擇舒緩的音樂，讓自己能夠更好地放鬆。點燃一些薰衣草或橙花的香薰蠟燭，讓整個空間充滿愉悅的香氣，同時也能夠提升按摩的效果。</span></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">按摩的重要性與建議</strong></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">夏季身體按摩不僅可以舒緩身體疲勞，還能夠提供一種放鬆的感覺，讓我們進入更深層的內心寧靜。無論是在夏日的午後還是日落時分，夏季身體按摩都是一個療癒的時刻，讓我們放下繁忙，重新與自己連結。</span></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">然而，對於嚴重的肌肉傷害或健康問題，建議在進行按摩之前先諮詢專業醫療意見。另外，在進行按摩時，要保持輕柔，避免用力過度，以免對肌膚造成傷害。</span></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">在夏季的高溫中，夏季身體按摩是一個極具愉悅和益處的療癒方式。在芬芳的香氣中，讓按摩成為你和身體的一場寧靜對話，讓肌膚和心靈都感受到那份溫暖和舒適。</span></p>"
     },
     {
       "id": "3",
       "title": "香薰與冥想：如何以香氣開始一段心靈之旅",
       "url": "https://static.wixstatic.com/media/ef7f06_d49c6294fad84cc4bb5c6b1261459a91~mv2.jpg/v1/fill/w_740,h_492,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_d49c6294fad84cc4bb5c6b1261459a91~mv2.jpg",
-      "content": "<p>在這個充斥著壓力和分心的現代社會，尋求心靈寧靜和平衡成了許多人的追求。而在這個追求中，香薰和冥想正逐漸成為越來越多人選擇的途徑。將芳香的能量與內心的寧靜結合，香薰與冥想成為一趟值得追尋的靈性之旅，讓我們更深入地探索內在世界。</p><p>香薰，是大自然賦予我們的禮物。每一種精油都蘊含著植物的智慧和生命能量，而這些能量可以透過我們的嗅覺進入身心，影響我們的情緒和靈性。精油的香氣，不僅可以舒緩壓力，還能幫助我們進入冥想的境界，促使我們更加深入地感受當下。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p>"
+      "content": "<p>在這個充斥著壓力和分心的現代社會，尋求心靈寧靜和平衡成了許多人的追求。而在這個追求中，香薰和冥想正逐漸成為越來越多人選擇的途徑。將芳香的能量與內心的寧靜結合，香薰與冥想成為一趟值得追尋的靈性之旅，讓我們更深入地探索內在世界。</p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">香薰的靈性之美</strong></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">香薰，是大自然賦予我們的禮物。每一種精油都蘊含著植物的智慧和生命能量，而這些能量可以透過我們的嗅覺進入身心，影響我們的情緒和靈性。精油的香氣，不僅可以舒緩壓力，還能幫助我們進入冥想的境界，促使我們更加深入地感受當下。</span></p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">冥想的心靈寧靜</strong></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">冥想，是一種靜心的修練，可以幫助我們達到內心的寧靜和平衡。透過冥想，我們可以超越外在的干擾，聚焦於內在的存在。這個過程讓我們更加意識到自己的思緒和情感，同時也能夠接觸到更高的自我。冥想幫助我們建立與自己內在的連結，讓我們更加了解自己的需要和願望。</span></p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">芳香冥想的奇妙融合</strong></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">將芳香的力量融入冥想中，創造出芳香冥想的獨特體驗。在冥想過程中，輕柔的芳香可以引導我們進入更加專注的狀態，同時也能夠加強我們的情感體驗。不同的精油有著不同的特性，選擇合適的精油可以幫助我們達到特定的冥想目標。例如，薰衣草精油可以幫助我們平靜情緒，橙花精油則能夠提升心情和愉悅感，沉香精油則有助於深入冥想，幫助我們探索內心深處。</span></p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">芳香冥想的實踐方法</strong></p><ol><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">創建專屬空間：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在進行芳香冥想時，選擇一個安靜的空間，營造一個舒適的環境。可以使用擴散器來散發精油的香氣，也可以點燃香薰蠟燭，讓空氣中充滿芳香。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">選擇適合的精油：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 根據你的冥想目標，選擇適合的精油。例如，如果你希望平靜情緒，可以選擇薰衣草精油；如果你想提振心情，則可以選擇柑橘類精油。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">深呼吸與專注：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在冥想過程中，深呼吸是非常重要的。透過深呼吸，我們可以帶入更多新鮮的空氣，同時也可以將精油的芳香引入體內。專注於呼吸，感受每一次呼吸的流動。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">內觀與感受：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在芳香冥想中，不僅僅是呼吸，也是內觀。將注意力放在呼吸和感受精油的香氣上。如果你的思緒漫遊，不要自責，輕輕地將注意力帶回呼吸和香氣上。</span></li></ol><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">結語</strong></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">芳香冥想是一種充滿魔力的體驗，它將香薰的力量與冥想的靈性結合，讓我們更加靠近內心的深處。在這個靈性之旅中，我們可以釋放情緒、平衡思緒，同時也能夠瞭解自己更深層的需求。透過香薰與冥想，我們可以找到靈性的寧靜，重新連結自己的內在世界，並在芬芳的香氣中尋求更高的意義和目的。</span></p><p><br></p>"
     },
     {
       "id": "4",
       "title": "精油與情緒平衡",
       "url": "https://static.wixstatic.com/media/ef7f06_e4617b559fd641c186eaecb595e7adef~mv2.jpg/v1/fill/w_740,h_493,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_e4617b559fd641c186eaecb595e7adef~mv2.jpg",
-      "content": "<p>在現代快節奏的生活中，我們時常面臨壓力、焦慮和情緒波動。然而，藉由自然界的一份珍貴恩賜 - 精油，我們可以開啟一段充滿芬芳力量的心靈之旅，尋找情緒的平衡和心靈的和諧。精油不僅是植物的精華，更是情緒的引導者，透過其香氣，我們可以啟發內心的寧靜，恢復情緒的平衡。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p>"
+      "content": "<p>在現代快節奏的生活中，我們時常面臨壓力、焦慮和情緒波動。然而，藉由自然界的一份珍貴恩賜 - 精油，我們可以開啟一段充滿芬芳力量的心靈之旅，尋找情緒的平衡和心靈的和諧。精油不僅是植物的精華，更是情緒的引導者，透過其香氣，我們可以啟發內心的寧靜，恢復情緒的平衡。</p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">精油的情緒療癒力量</strong></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">精油是植物的芳香成分，透過嗅覺系統進入我們的身心，影響情緒和情感中樞。不同的精油擁有獨特的香氣和成分，能夠釋放出不同的情感反應。例如，薰衣草精油的芳香帶來平靜和放鬆，橙花精油的香氣則能夠提振情緒和增加愉悅感。</span></p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">薰衣草：平靜與放鬆</strong></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">薰衣草精油是情緒平衡的代表。它的芳香能夠安撫焦慮、減輕壓力，甚至改善睡眠質量。當我們感到緊張不安時，薰衣草精油的香氛可以像柔和的音樂般，撫慰內心的不安，讓我們進入一個平靜的狀態。將幾滴薰衣草精油加入擴散器，讓整個空間充滿這種令人放鬆的香氣，這對於放鬆心情非常有益。</span></p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">柑橘類精油：提振愉悅</strong></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">當我們感到低落或缺乏動力時，柑橘類精油的香氣可以給予我們積極的能量。例如，橙花精油、檸檬精油和柚子精油都被證實具有提振情緒、增加愉悅感的效果。這些明亮、清新的香氣，像陽光一般照亮我們的心情，幫助我們轉化負面情緒，展現正面的一面。</span></p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">綠薄荷：清爽與活力</strong></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">綠薄荷精油帶來清爽的香氣，能夠提升警覺性和專注力。當我們感到疲倦、昏沉時，綠薄荷精油的芳香可以幫助我們清醒思維，重新注入活力。在繁忙的工作日，將綠薄荷精油用於擴散或按摩，能夠讓我們保持冷靜、清新的頭腦，更有效地應對挑戰。</span></p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">精油的使用方法</strong></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">精油可以透過多種方式使用，以達到情緒平衡的效果。最常見的方式包括：</span></p><ul><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">香薰擴散：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 將精油加入擴散器，讓芬芳充滿空氣中，營造愉悅的氛圍。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">香薰按摩：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 混合稀釋後的精油和基底油，進行按摩以放鬆肌肉，同時享受芳香的療癒。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">芳香浴：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在浴缸中加入數滴精油，享受香氛浸浴的同時，感受情緒的轉變。</span></li></ul><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">結語</strong></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">精油與情緒平衡之間的連結，讓我們能夠透過自然的芳香力量，重新獲得心靈的平靜和情感的和諧。在忙碌的日常生活中，不妨給自己一個芬芳的時刻，讓精油帶領我們走向情緒的平衡，重新連結內心的寧靜。不論是在家中、工作場所，或是放鬆的時刻，精油都是一位忠實的朋友，陪伴我們走過生命的起伏，讓我們在芬芳的香氣中找到情緒的和諧。</span></p><p><br></p>"
     },
     {
       "id": "5",
       "title": "香氛療法：透過自然的芳香力量，走向內心療癒",
       "url": "https://static.wixstatic.com/media/ef7f06_38815d9dded3407cb050defea9afe49f~mv2.jpg/v1/fill/w_740,h_671,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_38815d9dded3407cb050defea9afe49f~mv2.jpg",
-      "content": "<p>在這個充滿壓力和忙碌的現代生活中，人們追求各種方式來恢復身心平衡，而香氛療法正是其中之一。通過植物的芳香力量，香氛療法為我們提供了一條芬芳的療癒之旅，幫助我們紓解壓力、平靜情緒，並找到內心的寧靜。本文將深入探討香氛療法的基本概念、其益處以及如何將它融入日常生活。</p>"
+      "content": "<p>在這個充滿壓力和忙碌的現代生活中，人們追求各種方式來恢復身心平衡，而香氛療法正是其中之一。通過植物的芳香力量，香氛療法為我們提供了一條芬芳的療癒之旅，幫助我們紓解壓力、平靜情緒，並找到內心的寧靜。本文將深入探討香氛療法的基本概念、其益處以及如何將它融入日常生活。</p><p><br></p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">１．香氛療法的基本概念：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 香氛療法，又被稱為芳香療法，是一種利用植物的精油和香料來改善身心健康的自然療法。精油和香料通過其獨特的芳香分子，可以刺激嗅覺系統，影響大腦中的情緒中樞，進而產生療癒效果。</span></p><p><br></p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">２．香氛療法的益處：</strong></p><ul><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">情緒平衡：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 不同的精油具有不同的香氣特性，有些能夠鎮靜情緒，如薰衣草；有些能夠提振精神，如柑橘類精油。透過選擇合適的精油，我們可以調節情緒，使其更加平衡。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">壓力紓解：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 精油的香氣可以幫助減少壓力激素的分泌，讓身體和心靈得到放鬆。迷迭香、橙花和綠薄荷等精油都被證明具有壓力紓解的效果。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">提升睡眠質量：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 許多精油具有助於改善睡眠質量的特性，如洋甘菊和乳香。在睡前使用這些精油，可以幫助您進入更深層的睡眠狀態。</span></li></ul><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">３．將香氛療法融入日常生活：</strong></p><ul><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">香薰擴散器：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 這是最常見的使用方式，將精油加入擴散器，讓芬芳充滿整個室內，創造舒適的環境。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">香薰按摩：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 將稀釋後的精油與基底油混合，進行按摩以放鬆肌肉，同時享受芬芳療癒。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">芳香浴：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在溫水中加入數滴精油，享受芳香的浸浴，同時讓療癒感觸及每一寸皮膚。</span></li></ul><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">４．應注意的事項：</strong></p><ul><li><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">精油需適當稀釋才能使用，以避免皮膚敏感或其他不適。</span></li><li><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">孕婦、兒童、寵物和特定健康狀況的人應在專業指導下使用精油。</span></li></ul><p><br></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">香氛療法是一條通向身心平衡的芬芳之旅。透過優雅的精油，我們能夠引領自己走入一個充滿寧靜和療癒的空間。無論是在工作壓力或日常煩惱中，香氛療法都能夠成為我們的力量來源，讓我們更好地面對生活的挑戰。讓我們在香氛的世界中，尋找到屬於自己的平靜與幸福。</span></p><p><br></p>"
     },
     {
       "id": "6",
       "title": "精油入門指南：啟程自然的療癒之旅",
       "url": "https://static.wixstatic.com/media/ef7f06_aa50bd36227c4403af1cd3c16f3504ac~mv2.jpg/v1/fill/w_740,h_493,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_aa50bd36227c4403af1cd3c16f3504ac~mv2.jpg",
-      "content": "<p>精油，這源自大自然的奇妙寶藏，擁有無限的療癒力量。自古以來，人類就一直在追求利用植物的芬芳和精華，為身心帶來平靜與和諧。透過本篇文章，我們將深入探索精油的神秘世界，帶您了解精油的基本知識、多樣的應用和使用時的安全注意事項。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p>"
-    },
-    {
-      "id": "7",
-      "title": "精油入門指南：啟程自然的療癒之旅",
-      "url": "https://static.wixstatic.com/media/ef7f06_aa50bd36227c4403af1cd3c16f3504ac~mv2.jpg/v1/fill/w_740,h_493,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ef7f06_aa50bd36227c4403af1cd3c16f3504ac~mv2.jpg",
-      "content": "<p>精油，這源自大自然的奇妙寶藏，擁有無限的療癒力量。自古以來，人類就一直在追求利用植物的芬芳和精華，為身心帶來平靜與和諧。透過本篇文章，我們將深入探索精油的神秘世界，帶您了解精油的基本知識、多樣的應用和使用時的安全注意事項。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p><p>精油，作為大自然的禮物，擁有強大的香氣和多種療癒效果，已經在人類的生活中扮演著重要的角色。這些植物提取物不僅僅是香味的來源，還可以在身心層面帶來許多益處。讓我們一同探索精油的基本介紹與應用方法，揭開這個美妙世界的面紗。</p><p>無論您是剛開始接觸精油還是有一定經驗，精油都是一個令人愉悅且療癒的選擇，讓您在忙碌的日常中找到寧靜與平衡。無論您是享受香氣，還是尋求身心的療癒，精油都能夠成為您的理想伴侶。</p>"
+      "content": "<p>精油，這源自大自然的奇妙寶藏，擁有無限的療癒力量。自古以來，人類就一直在追求利用植物的芬芳和精華，為身心帶來平靜與和諧。透過本篇文章，我們將深入探索精油的神秘世界，帶您了解精油的基本知識、多樣的應用和使用時的安全注意事項。</p><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">１．認識精油的本質：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 精油是植物中天然芳香化合物，透過蒸餾、壓榨或其他提取方法而得。每種精油都有獨特的香氣和特性，來自不同植物的精油帶來多樣的益處，從舒緩到振奮，從焦慮到安寧。</span></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> \t</span></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">２．主要精油及其應用：</strong></p><ul><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">薰衣草精油：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 這是最廣為人知的精油之一，被廣泛用於紓緩壓力、改善睡眠質量，以及平靜情緒。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">茶樹精油：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 具有卓越的抗菌、抗炎、抗真菌作用，可應用於皮膚護理和清潔。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">檸檬精油：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 這種清新的精油有助於提振精神、促進消化，並帶來愉悅的氛圍。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">薄荷精油：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 具有涼爽感，能紓緩頭痛、提升專注力，甚至有助於舒緩肌肉不適。</span></li></ul><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">３．精油的應用技巧：</strong></p><ul><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">香薰擴散：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 透過擴散器將精油散發在空氣中，創造舒適的環境。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">香薰按摩：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 混合稀釋過的精油和基底油，進行按摩以紓緩疲勞、促進放鬆。</span></li><li><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">蒸氣吸入：</strong><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\"> 在熱水中添加精油，然後用毛巾蓋住頭部，吸入蒸氣，幫助呼吸道通暢。</span></li></ul><p><br></p><p><br></p><p><strong style=\"background-color: var(--ricos-custom-p-background-color,unset);\">４．精油使用時的注意事項：</strong></p><ul><li><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">精油需適當稀釋才能使用，以避免皮膚敏感或其他不適反應。</span></li><li><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">孕婦、兒童、寵物及特定健康狀況的人應謹慎使用精油，最好在專業指導下操作。</span></li><li><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">確保選購高品質、純正的精油，以確保其效果和安全性。</span></li></ul><p><br></p><p><br></p><p><br></p><p><span style=\"background-color: var(--ricos-custom-p-background-color,unset);\">結論： 精油是大自然的禮物，能在生活中注入療癒的力量。這份入門指南已經啟蒙您關於精油的奧秘。無論您選擇哪種精油，請保持謙虛和尊重，並遵循安全使用的原則，讓這些天然的魔力幫助您實現身心的平衡與健康。開啟您的精油之旅，進一步探索自然的療癒之道。</span></p><p><br></p>"
     }
   ],
   "user": [
@@ -160,10 +162,23 @@
       "id": "1"
     },
     {
-      "username": "admin123",
-      "password": "admin",
+      "username": "hi123",
+      "password": "hiiii",
       "email": "i",
       "id": "2"
+    },
+    {
+      "id": "fb30",
+      "username": "jjjhkjkjshdf",
+      "password": "sjdhfkjhdkfj",
+      "email": "kxjdhfkxjdhf"
+    }
+  ],
+  "admin": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": "1"
     }
   ]
 }

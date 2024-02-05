@@ -2,38 +2,17 @@
   <div class="header">
     <el-row type="flex" justify="center">
       <el-col :span="8" class="text-links">
-        <!-- 下拉式選單shop -->
-        <el-dropdown>
-          <span class="el-dropdown-link">
-            Shop<i class="el-icon-arrow-down el-icon--right"></i>
-          </span>
-          <el-dropdown-menu slot="dropdown">
-            <el-dropdown-item>
-              <el-link href="/shop">所有商品</el-link>
-            </el-dropdown-item>
-
-            <el-dropdown-item>
-              <el-link>香氛</el-link>
-            </el-dropdown-item>
-
-            <el-dropdown-item>
-              <el-link>臉部保養</el-link>
-            </el-dropdown-item>
-
-            <el-dropdown-item>
-              <el-link>身體保養</el-link>
-            </el-dropdown-item>
-          </el-dropdown-menu>
-        </el-dropdown>
-
-        <el-button type="text" class="texts"
-          ><a href="/massage">精油按摩</a></el-button
+        <el-button type="text" class="texts" :class="{ 'highlighted': isShopPage }" @click="$router.push('/shop')"
+          >Shop</el-button
         >
-        <el-button type="text" class="texts"
-          ><a href="/article">專欄</a></el-button
+        <el-button type="text" class="texts" :class="{ 'highlighted': isMassagePage }" @click="$router.push('/massage')"
+          >精油按摩</el-button
         >
-        <el-button type="text" class="texts"
-          ><a href="/about">關於25°C</a></el-button
+        <el-button type="text" class="texts" :class="{ 'highlighted': isArticlePage }" @click="$router.push('/article')"
+          >專欄</el-button
+        >
+        <el-button type="text" class="texts" :class="{ 'highlighted': isAboutPage }" @click="$router.push('/about')"
+          >關於25°C</el-button
         >
       </el-col>
 
@@ -44,8 +23,8 @@
       </el-col>
 
       <el-col :span="8" class="buttons">
-        <el-button type="primary" icon="el-icon-user" v-if="isLogin === false"><a href="/login">登入/註冊</a></el-button>
-        <el-button type="primary" icon="el-icon-user" v-if="isLogin === true"><a href="/login">會員中心</a></el-button>
+        <el-button type="primary" icon="el-icon-user" v-if="isLogin === false" @click="$router.push('/login')">登入/註冊</el-button>
+        <el-button type="primary" icon="el-icon-user" v-if="isLogin === true" @click="$router.push('/login')">會員中心</el-button>
         <el-button type="primary" v-if="isLogin === true" @click="logOut">登出</el-button>
         <el-button
           type="primary"
@@ -97,7 +76,19 @@ export default {
   },
   computed: {
     ...mapState('cart', ['list']),
-    ...mapGetters('cart', ['total', 'totalPrice'])
+    ...mapGetters('cart', ['total', 'totalPrice']),
+    isShopPage () {
+      return this.$route.path === '/shop'
+    },
+    isMassagePage () {
+      return this.$route.path === '/massage'
+    },
+    isArticlePage () {
+      return this.$route.path === '/article'
+    },
+    isAboutPage () {
+      return this.$route.path === '/about'
+    }
   },
   created () {
     const token = getToken()
@@ -133,6 +124,9 @@ export default {
 <style>
 .header {
   padding-top: 20px;
+  .el-divider--horizontal {
+    margin-bottom: 0;
+  }
   .el-drawer {
     background-color: #88988b;
     .el-drawer__header {
@@ -185,7 +179,7 @@ export default {
   .text-links {
     text-align: center;
     margin: auto 0;
-    .texts a {
+    .el-button {
       margin: 0 15px 0 15px;
       padding-bottom: 10px;
       font-size: 16px;
@@ -193,15 +187,10 @@ export default {
       color: #516b56;
       transition: 0.5s all;
     }
-    .texts a:hover {
-      color: #97b79d;
+    .el-button:hover, .el-button.highlighted {
+    color: #97b79d;
       border-bottom: 1px solid #97b79d;
-    }
-    .el-dropdown-link {
-      cursor: pointer;
-      color: #516b56;
-      padding: 0 15px;
-      font-size: 16px;
+      border-radius: 0;
     }
   }
   .logo {

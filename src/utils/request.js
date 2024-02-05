@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { getToken, delToken } from '@/utils/storage'
+import { getToken, delToken } from '@/utils/auth'
 import router from '@/router/index'
 import Toast from 'element-ui'
 

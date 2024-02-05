@@ -6,10 +6,21 @@
       <el-breadcrumb-item><a href="/shop">Shop</a></el-breadcrumb-item>
     </el-breadcrumb>
 
+    <!-- 側邊欄 -->
+    <el-aside width="150px">
+      <el-menu>
+        <el-menu-item index="1" @click="getAllProduct">所有商品</el-menu-item>
+        <el-menu-item index="2" @click="filter('incense')">香氛</el-menu-item>
+        <el-menu-item index="3" @click="filter('essential-oil')">精油</el-menu-item>
+        <el-menu-item index="4" @click="filter('face-care')">臉部保養</el-menu-item>
+        <el-menu-item index="5" @click="filter('body-care')">身體保養</el-menu-item>
+      </el-menu>
+    </el-aside>
+
     <el-row>
       <el-col :span="8" v-for="item in productList" :key="item.id">
         <el-card @click.native="$router.push(`/product/${item.id}`)">
-            <div class="image">
+          <div class="image">
             <img :src="item.url" alt="" />
           </div>
           <span class="name">{{ item.name }}</span>
@@ -19,7 +30,8 @@
             type="plain"
             icon="el-icon-shopping-cart-2"
             @click.stop="addToCart(item.id)"
-          >加入購物車</el-button>
+            >加入購物車</el-button
+          >
         </el-card>
       </el-col>
     </el-row>
@@ -33,25 +45,40 @@ export default {
   name: 'ShopIndex',
   data () {
     return {
-      productList: []
+      productList: [],
+      originalProductList: []
     }
   },
   computed: {
     ...mapState('cart', ['list'])
   },
-  async created () {
-    const res = await getAllProductAPI()
-    // console.log(res)
-    this.productList = res
-    this.$store.dispatch('cart/getListAPI')
+  created () {
+    this.getAllProduct()
   },
   methods: {
+    async getAllProduct () {
+      const res = await getAllProductAPI()
+      // console.log(res)
+      this.productList = res
+      this.originalProductList = [...res]
+      this.$store.dispatch('cart/getListAPI')
+    },
+    filter (category) {
+      // 将 productList 还原为最初获取的产品列表
+      this.productList = [...this.originalProductList]
+      // 过滤 productList
+      const resList = this.productList.filter(ele => ele.category === category)
+      this.productList = resList
+    },
     async addToCart (myid) {
       // 要確認此商品是否已有在購物車裡，若有則修改數量，沒有則新增！！！！！
       // console.log(id, this.list)
-      const existItem = this.list.find(ele => ele.id === myid)
+      const existItem = this.productList.find((ele) => ele.id === myid)
       if (existItem) {
-        await this.$store.dispatch('cart/updateCountAPI', { id: myid, count: existItem.count + 1 })
+        await this.$store.dispatch('cart/updateCountAPI', {
+          id: myid,
+          count: existItem.count + 1
+        })
         this.$message({
           message: '已加入購物車',
           type: 'success'
@@ -77,7 +104,8 @@ export default {
 <style>
 .shop {
   .el-breadcrumb {
-    margin-left: 13%;
+    margin-top: 20px;
+    margin-left: 80px;
     .el-breadcrumb__inner.is-link,
     .el-breadcrumb__inner a {
       color: #b7b7b7;
@@ -90,6 +118,22 @@ export default {
       color: #6e6c6c;
     }
   }
+  .el-aside {
+    position: absolute;
+    left: 60px;
+    top: 288px;
+    .el-menu {
+      background-color: transparent;
+      border: transparent;
+      .el-menu-item {
+        color: #b7b7b7;
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+        padding-left: 0;
+      }
+    }
+  }
   .el-row {
     width: 70%;
     margin-left: 20%;
@@ -97,10 +141,10 @@ export default {
       /* width: 90%; */
       text-align: center;
       .el-card {
-      cursor: pointer;
+        cursor: pointer;
         border-radius: 5%;
         margin: 20px auto;
-        width: 90%;
+        width: 300px;
         height: 350px;
         background-color: rgba(255, 255, 255, 0);
         .el-card__body {

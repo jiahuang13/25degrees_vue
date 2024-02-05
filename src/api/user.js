@@ -16,5 +16,9 @@ export const getAllUserAPI = () => {
   })
 }
 
-// 會員登入
-// export const loginAPI =
+// 獲取管理員資料
+export const getAdminUserAPI = () => {
+  return request({
+    url: '/admin'
+  })
+}

@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import { deleteProductAPI } from '@/api/product'
+import { deleteCartProductAPI } from '@/api/product'
 export default {
   name: 'CartItem',
   methods: {
@@ -37,7 +37,7 @@ export default {
     },
     async deleteItem (id) {
       // console.log(id)
-      await deleteProductAPI(id)
+      await deleteCartProductAPI(id)
       this.$store.dispatch('cart/getListAPI')
     }
   },

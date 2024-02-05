@@ -40,6 +40,7 @@ export default {
 .el-page-header {
   color: #d8d7d7;
   padding-left: 50px;
+  padding-top: 30px;
   .el-page-header__content {
     color: #d8d7d7;
 }

@@ -8,6 +8,7 @@
 
     <!-- 側邊欄 -->
     <el-aside width="150px">
+      <el-divider></el-divider>
       <el-menu>
         <el-menu-item index="1" @click="getAllProduct">所有商品</el-menu-item>
         <el-menu-item index="2" @click="filter('incense')">香氛</el-menu-item>
@@ -122,6 +123,9 @@ export default {
     position: absolute;
     left: 60px;
     top: 288px;
+    .el-divider {
+      background-color: #8b8989;
+    }
     .el-menu {
       background-color: transparent;
       border: transparent;

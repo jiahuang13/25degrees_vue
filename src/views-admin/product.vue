@@ -309,7 +309,7 @@ export default {
       color: #fff;
       text-align: center;
       font-weight: 100;
-      font-size: 30px;
+      font-size: 20px;
     }
     .el-button {
       position: absolute;
@@ -322,6 +322,7 @@ export default {
     flex-direction: column;
   }
   .el-scrollbar {
+    padding-top: 30px;
     height: 80vh;
   }
   .overflow-hidden {

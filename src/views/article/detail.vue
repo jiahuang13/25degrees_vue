@@ -29,7 +29,7 @@ export default {
   async created () {
     // console.log(this.$route.params.id)
     const res = await getDetailAPI(this.$route.params.id)
-    // console.log(res)
+    console.log(res)
     this.article = res
     // console.log(this.article)
   }
@@ -55,7 +55,7 @@ export default {
     color: #d6d6d6;
     padding: 50px 0 50px 0;
     letter-spacing: 3px;
-    font-size: 40px;
+    font-size: 30px;
   }
   .pic {
     margin: 0 auto 80px;

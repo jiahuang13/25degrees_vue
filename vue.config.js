@@ -1,14 +1,14 @@
-const { defineConfig } = require('@vue/cli-service')
+const path = require('path')
 
-module.exports = defineConfig({
+module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/25degrees_vue/'
+    : '/',
   transpileDependencies: true,
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@': require('path').resolve(__dirname, 'src')
-        // 这里可以根据需要添加其他的别名
-        // 例如：'@components': require('path').resolve(__dirname, 'src/components')
-      }
-    }
+  chainWebpack: config => {
+    config.resolve.alias
+      .set('@', path.resolve(__dirname, 'src'))
+      // 在這裡添加其他的別名
+      // 例如：.set('@components', path.resolve(__dirname, 'src/components'))
   }
-})
+}

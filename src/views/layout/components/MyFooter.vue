@@ -1,5 +1,6 @@
 <template>
   <div class="footer">
+    <el-backtop target=".page-component__scroll .el-scrollbar__wrap"></el-backtop>
     <div class="footer-top">
       <a href="../index.html"><img src="@/assets/img/25degrees_logo.png" height="150" class="logo" /></a>
       <div class="icons d-flex justify-content-center">

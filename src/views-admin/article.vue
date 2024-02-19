@@ -10,15 +10,8 @@
     <el-scrollbar>
       <!-- 表格 -->
       <el-table :data="articleList" border style="width: 100%">
-        <el-table-column prop="id" label="id" width="70" align="center">
+        <el-table-column prop="id" label="id" width="130" align="center">
         </el-table-column>
-        <!-- <el-table-column prop="thumb" label="縮圖" width="120" align="center">
-          <template slot-scope="scope">
-            <img :src="scope.row.url" alt="" width="100px" height="100px" />
-          </template>
-        </el-table-column> -->
-        <!-- <el-table-column prop="category" label="類別" width="100" align="center" :formatter="formatCategory">
-        </el-table-column> -->
         <el-table-column prop="title" label="標題" width="150" align="center">
         </el-table-column>
         <el-table-column prop="thumb" label="縮圖" width="120" align="center">
@@ -132,6 +125,11 @@
           <el-form-item label="圖片連結" prop="url">
             <el-input v-model="addForm.url"></el-input>
           </el-form-item>
+          <el-form-item label="圖片預覽" prop="url">
+            <div class="image">
+              <img :src="addForm.url" alt="" width="100px" height="auto" />
+            </div>
+          </el-form-item>
         </el-form>
         <span slot="footer" class="dialog-footer">
           <el-button @click="addDialogVisible = false">取 消</el-button>
@@ -147,7 +145,7 @@ import {
   getAllArticlesAPI,
   getDetailAPI,
   addNewArticleAPI,
-  deleteArticleAPI,
+  deleteUserAPI,
   updateArticleAPI
 } from '@/api/articles'
 // 富文本編輯器
@@ -168,7 +166,8 @@ export default {
       addForm: {
         title: '',
         url: '',
-        content: ''
+        content: '',
+        id: ''
       },
       editForm: {
         title: '',
@@ -188,7 +187,7 @@ export default {
   async created () {
     const res = await getAllArticlesAPI()
     // console.log(res)
-    this.articleList = res
+    this.articleList = res.sort((a, b) => parseInt(b.id) - parseInt(a.id))
   },
   methods: {
     async updateArticle (id) {
@@ -199,10 +198,10 @@ export default {
           // 關閉彈框
           this.editDialogVisible = false
           this.$refs.editForm.resetFields()
-          // 重新取得商品資料
+          // 重新取得文章資料
           const res2 = await getAllArticlesAPI()
           // console.log(res)
-          this.articleList = res2
+          this.articleList = res2.sort((a, b) => parseInt(b.id) - parseInt(a.id))
           // 顯示成功提示
           this.$message.success('編輯成功')
         } else {
@@ -211,27 +210,20 @@ export default {
         }
       })
     },
-    formatCategory (row) {
-      const map = {
-        'essential-oil': '精油',
-        incense: '香氛',
-        'face-care': '臉部保養',
-        'body-care': '身體保養'
-      }
-      return map[row.category]
-    },
     addNewArticle () {
       this.$refs.addForm.validate(async (valid) => {
         if (valid) {
+          const timestamp = new Date().getTime().toString
+          this.addForm.id = timestamp
           // 提交資料
           await addNewArticleAPI(this.addForm)
           // 關閉彈框
           this.addDialogVisible = false
           this.$refs.addForm.resetFields()
-          // 重新取得商品資料
+          // 重新取得文章資料
           const res = await getAllArticlesAPI()
           // console.log(res)
-          this.articleList = res
+          this.articleList = res.sort((a, b) => parseInt(b.id) - parseInt(a.id))
           // 顯示成功提示
           this.$message.success('新增成功')
         } else {
@@ -265,7 +257,7 @@ export default {
       })
     },
     async handleDelete (id) {
-      const confirm = await this.$confirm('刪除後不可回復，確定刪除商品嗎？', {
+      const confirm = await this.$confirm('刪除後不可回復，確定刪除文章嗎？', {
         confirmButtonText: '確定',
         cancelButtonText: '取消',
         type: 'warning'
@@ -273,8 +265,8 @@ export default {
         return false
       })
       if (confirm === 'confirm') {
-        await deleteArticleAPI(id)
-        this.$message.success('商品已刪除')
+        await deleteUserAPI(id)
+        this.$message.success('文章已刪除')
         const res = await getAllArticlesAPI()
         this.articleList = res
       }
@@ -293,7 +285,7 @@ export default {
       color: #fff;
       text-align: center;
       font-weight: 100;
-      font-size: 30px;
+      font-size: 20px;
     }
     .el-button {
       position: absolute;

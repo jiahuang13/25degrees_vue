@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkvue_25degrees"]=self["webpackChunkvue_25degrees"]||[]).push([[490],{1490:function(e,n,u){u.r(n),u.d(n,{default:function(){return f}});var r=function(){var e=this,n=e._self._c;return n("div",[e._v(" 工作台 ")])},l=[],s={name:"workbenchPage"},t=s,c=u(1001),a=(0,c.Z)(t,r,l,!1,null,null,null),f=a.exports}}]);
+//# sourceMappingURL=490.7b78fe76.js.map
